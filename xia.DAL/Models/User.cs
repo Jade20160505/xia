@@ -5,7 +5,7 @@ using System.Text;
 
 namespace xia.DAL.Models
 {
-    class User
+    public class User
     {
         [Key]
         public int USR_ID { get; set; }

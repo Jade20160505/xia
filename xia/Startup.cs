@@ -27,7 +27,7 @@ namespace xia
             // 创建数据库
             var connection = Configuration.GetConnectionString("SqlServer");
             services.AddDbContext<Context>(options =>
-            options.UseSqlServer(connection, b => b.MigrationsAssembly("xiaDB")));
+            options.UseSqlServer(connection, b => b.MigrationsAssembly("xia")));
 
             services.AddMvc();
         }
