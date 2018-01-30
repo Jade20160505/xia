@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xia", "xia\xia.csproj", "{E609C358-76E6-41B4-8E6A-ADAEF6BF60AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xia", "xia\xia.csproj", "{E609C358-76E6-41B4-8E6A-ADAEF6BF60AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xia.DAL", "xia.DAL\xia.DAL.csproj", "{E7A34BFF-E3A1-41A1-953B-5E7562946C26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xia.DAL", "xia.DAL\xia.DAL.csproj", "{E7A34BFF-E3A1-41A1-953B-5E7562946C26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xia.Services", "xia.Services\xia.Services.csproj", "{F324A9B5-D891-4663-905B-0C2CD6986B12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xia.Services", "xia.Services\xia.Services.csproj", "{F324A9B5-D891-4663-905B-0C2CD6986B12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7A34BFF-E3A1-41A1-953B-5E7562946C26} = {E7A34BFF-E3A1-41A1-953B-5E7562946C26}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

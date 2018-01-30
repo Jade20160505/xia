@@ -11,6 +11,7 @@ namespace xia.DAL
         }
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Login> Logins { get; set; }
 
     }
 }
