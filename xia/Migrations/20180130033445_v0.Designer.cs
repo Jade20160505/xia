@@ -11,7 +11,7 @@ using xia.DAL;
 namespace xia.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20180129162447_v0")]
+    [Migration("20180130033445_v0")]
     partial class v0
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
